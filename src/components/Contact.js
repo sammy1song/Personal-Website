@@ -10,6 +10,8 @@ import {
 } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import ProfileArray from "./ProfileArray";
+import ContactForm from "./ContactForm";
+
 
 export default function Contact({ color }) {
   const profile = ProfileArray();
