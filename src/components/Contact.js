@@ -57,6 +57,9 @@ export default function Contact({ color }) {
                 <FaEnvelope onClick={email} size={28} />
               </HStack>
             </Center>
+            <Center>
+            <ContactForm />
+            </Center>
           </Stack>
         </Stack>
       </Container>
